@@ -54,11 +54,6 @@ p {
     font-size: 1em;
 }
 
-.first-section__img-size {
-    width: 30%;
-    height: 30%;
-}
-
 /* Styling Header with Nav-Bar on the right */
 
 header {
@@ -67,6 +62,7 @@ header {
     top: 0;
     display: flex;
     justify-content: flex-end;
+    background-color: var(--third-color);
 }
 
 header nav {
@@ -77,7 +73,7 @@ header nav {
 }
 
 main {
-    margin-top: 10em;
+    margin-top: 8em;
 }
 
 article {
@@ -87,6 +83,21 @@ article {
     flex-wrap: wrap;
 }
 
-div {
+.first-section__description {
     max-width: 35%;
+}
+
+.first-section__img-size {
+    width: 30%;
+    height: 30%;
+}
+
+.second-section__image-size {
+    width: 25%;
+    height: 25%;
+}
+
+.third-section__image-size {
+    width: 32%;
+    height: 32%;
 }
