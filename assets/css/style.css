@@ -34,18 +34,59 @@
 }
 
 html {
-
+    list-style: none;
+    background-color: var(--third-color);
 }
 
 a {
     font-family: 'Lato';
+    text-decoration: none;
+    color: var(--first-color);
 }
 
 h2 {
     font-family: 'Merriweather-Bold';
-    font-size: ;
+    font-size: 3em;
 }
 
 p {
     font-family: 'Merriweather-Regular';
+    font-size: 1em;
+}
+
+.first-section__img-size {
+    width: 30%;
+    height: 30%;
+}
+
+/* Styling Header with Nav-Bar on the right */
+
+header {
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav {
+    display: flex;
+    gap: 1em;
+    padding: 1em 2em 1em 0;
+    text-transform: uppercase;
+}
+
+main {
+    margin-top: 10em;
+}
+
+article {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+div {
+    max-width: 35%;
 }
