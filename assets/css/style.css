@@ -20,3 +20,32 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --first-color: rgba(32, 32, 32, 1);
+    --second-color: rgba(0, 0, 0, 1);
+    --third-color: white;
+    --shadow-color: rgba(0, 0, 0, 0.2);
+    --fourth-color: rgba(126, 126, 126, 1);
+    --yellow-color: rgba(252, 175, 69, 1);
+    --blue-color: rgba(85, 172, 238, 1);
+    --red-color: rgba(196, 48, 43, 1);
+    --member-background:rgba(85, 172, 238, 0.1);
+}
+
+html {
+
+}
+
+a {
+    font-family: 'Lato';
+}
+
+h2 {
+    font-family: 'Merriweather-Bold';
+    font-size: ;
+}
+
+p {
+    font-family: 'Merriweather-Regular';
+}
