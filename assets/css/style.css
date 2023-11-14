@@ -62,6 +62,7 @@ p {
 button {
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .page-margin__left {
@@ -70,6 +71,12 @@ button {
 
 .page-margin__right {
     margin-right: 8rem;
+}
+
+/* Box Shadows for Button "Subscribe" and images in section two and three */
+
+.subscribe-button, .second-section__images img:hover, .third-section__images img:hover {
+    box-shadow: 0.05rem 0.05rem 0.1rem 0.1rem var(--fourth-color);
 }
 
 /* Styling Header with Nav-Bar on the right */
@@ -127,18 +134,18 @@ article {
 .download-button {
     background-color: var(--first-color);
     color: var(--third-color);
+    margin-right: 1rem;
 }
 
 .subscribe-button {
     background-color: var(--third-color);
-    box-shadow: 0.05rem 0.05rem 0.1rem 0.1rem var(--fourth-color);
 }
 
 .extra-margin__right {
     margin-right: 20rem;
 }
 
-/* Second and Third Section centered alignment */
+/* Second, Third and Fourth Section centered alignment */
 
 .centered-section {
     display: flex;
@@ -147,7 +154,7 @@ article {
     margin-top: 20vh;
 }
 
-.centered-section p {
+.centered-section__p {
     margin: 0 25vw 2rem 25vw;
     text-align: center;
 }
@@ -159,16 +166,24 @@ article {
     justify-content: space-between;
 }
 
-
-
 .second-section__image-size {
     width: 25%;
     height: 25%;
 }
 
+
+/* Third Section Flex-Direction for 6 images */
+
+.third-section__images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
 .third-section__image-size {
-    width: 32%;
-    height: 32%;
+    width: 40%;
+    height: 40%;
 }
 
 
