@@ -192,7 +192,7 @@ article {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 3rem;
+    gap: 1.5rem;
 }
 
 .third-section__image-size {
